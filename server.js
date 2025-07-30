@@ -1,7 +1,7 @@
 require("dotenv").config(); // Must come first
 const express = require("express");
 const connectDB = require("./src/db/db");
-const authRoutes = require("./src/routes/auth.routes"); // ✅ Make sure path is correct
+const authRoutes = require("./src/routes/auth.routes");// ✅ Make sure path is correct
 
 const app = express();
 
