@@ -9,6 +9,6 @@ app.use(cookieParser());
 
 app.use(express.json())
 app.use('/auth', authRoutes);
-app.use('/post', postRoutes);
+app.use('/posts', postRoutes);
 
 module.exports = app
